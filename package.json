@@ -1,0 +1,16 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "Mercado Liebre",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {}
+}
