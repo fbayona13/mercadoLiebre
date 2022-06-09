@@ -3,7 +3,7 @@ const express = require("express");
 const server = express();
 const port = process.env.PORT || 2020
 
-server.listen(3000, () => console.log("PRUEBA DE SERVIDOR MERCADO LIEBRE puerto_2020"));
+server.listen(port, () => console.log("PRUEBA DE SERVIDOR MERCADO LIEBRE puerto_2020"));
 
 const public = path.resolve(__dirname, "../public");
 server.use(express.static(public));
