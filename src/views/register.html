@@ -25,108 +25,164 @@
     <link rel="stylesheet" href="/css/desktop.css" />
   </head>
   <body>
-    <form action="/">
-      <fieldset>
-        <label for="nombreApellido">Introducir nombre y apellido</label>
-        <input
-          type="text"
-          name="nombreApellido"
-          id="nombreApellido"
-          placeholder="Rick Astley"
-          required
-        />
+    <header>
+      <article id="header1">
+        <nav id="logo">
+          <a href="/">
+            <img
+              id="mercadoliebre"
+              src="/assets/images/logo-mercado-liebre.svg"
+              alt="logo-mercado-liebre"
+            />
+          </a>
+        </nav>
 
-        <label for="userName">Introducir un nombre de usuario</label>
-        <input
-          type="text"
-          name="userName"
-          id="userName"
-          placeholder="rickAstley1"
-          required
-        />
+        <p id="searchbar">Lugar para poner barra de busqueda</p>
+        <p id="holdingdollar">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          compras en cuotas y sin tarjeta de credito
+        </p>
+      </article>
 
-        <!--formulario para cargar imagenes-->
-        <!--si le ponemos en action / nos devuelve a la pagina del home-->
-        <label for="doc"><i class="fa-solid fa-image"></i></label>
-        <input type="file" name="doc" id="doc" required />
+      <nav class="navylogin">
+        <a href="">Ofertas</a>
+        <a href="">Tiendas Oficiales</a>
+        <a href="">Vender</a>
+        <a href="">Ayuda</a>
 
-        <!--teniendo en cuenta la fecha de este ano (2022)-->
-        <label for="bDate"></label>
-        <input type="date" name="bDate" id="bDate" min="01-01-2004" required />
+        <a href="./register.html">
+          Crea tu cuenta
+          <i class="fa-solid fa-id-card"></i>
+        </a>
 
-        <label for="email">Introducir un email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="riskAstley@gmail.com"
-          required
-        />
-      </fieldset>
-      <fieldset>
-        <label for="password">Introducir una contraseña</label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          value="password"
-          required
-        />
+        <a href="./login.html">
+          Ingresa
+          <i class="fa-solid fa-arrow-right-to-bracket"></i>
+        </a>
 
-        <label for="passwordConfirm">Confirmar contraseña</label>
-        <input
-          type="password"
-          name="passwordConfirm"
-          id="passwordConfirm"
-          value="passwordConfirm"
-          required
-        />
-      </fieldset>
-      <fieldset>
-        <label>Seleccione un perfil de usuario</label>
-        <label for="buyer">
-          <input type="radio" name="perfil" id="buyer" value="buyer" />
-          Comprador
-        </label>
-        <label for="seller">
-          <input type="radio" name="perfil" id="seller" value="seller" />
-          Vendedor
-        </label>
-      </fieldset>
-      <fieldset>
-        <label
-          >Seleccione categorias de interes (puede elegir mas de una)</label
-        >
+        <a href="">
+          Mis Compras
+          <i class="fa-solid fa-basket-shopping"></i>
+        </a>
+      </nav>
 
-        <label for="electro">Electro</label>
-        <input type="checkbox" name="category" id="electro" value="electro" />
+      <nav class="navbars">
+        <i id="bars" class="fa-solid fa-bars"></i>
+      </nav>
+    </header>
+    <main>
+      <form action="/" method="post">
+        <fieldset>
+          <label for="nombreApellido">Introducir nombre y apellido</label>
+          <input
+            type="text"
+            name="nombreApellido"
+            id="nombreApellido"
+            placeholder="Rick Astley"
+            required
+          />
 
-        <label for="moda">Moda</label>
-        <input type="checkbox" name="category" id="moda" value="moda" />
+          <label for="userName">Introducir un nombre de usuario</label>
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            placeholder="rickAstley1"
+            required
+          />
 
-        <label for="hogar">Hogar</label>
-        <input type="checkbox" name="category" id="hogar" value="hogar" />
+          <!--formulario para cargar imagenes-->
+          <!--si le ponemos en action / nos devuelve a la pagina del home-->
+          <label for="doc"><i class="fa-solid fa-image"></i></label>
+          <input type="file" name="doc" id="doc" required />
 
-        <label for="jugueteria">Juguetería</label>
-        <input
-          type="checkbox"
-          name="category"
-          id="jugueteria"
-          value="jugueteria"
-        />
+          <!--teniendo en cuenta la fecha de este ano (2022)-->
+          <label for="bDate"></label>
+          <input
+            type="date"
+            name="bDate"
+            id="bDate"
+            min="01-01-2004"
+            required
+          />
 
-        <label for="lifeStyle">Vida Sana</label>
-        <input
-          type="checkbox"
-          name="category"
-          id="lifeStyle"
-          value="lifeStyle"
-        />
-      </fieldset>
-      <fieldset>
-        <button type="submit">Registrarse</button>
-        <button type="reset">Borrar todo</button>
-      </fieldset>
-    </form>
+          <label for="email">Introducir un email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="rickastley@gmail.com"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="password">Introducir una contraseña</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            value="password"
+            required
+          />
+
+          <label for="passwordConfirm">Confirmar contraseña</label>
+          <input
+            type="password"
+            name="passwordConfirm"
+            id="passwordConfirm"
+            value="passwordConfirm"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label>Seleccione un perfil de usuario</label>
+          <label for="buyer">
+            <input type="radio" name="perfil" id="buyer" value="buyer" />
+            Comprador
+          </label>
+          <label for="seller">
+            <input type="radio" name="perfil" id="seller" value="seller" />
+            Vendedor
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label>Seleccione categorias de interes (puede elegir mas de una)</label>
+
+          <label for="electro">Electro</label>
+          <input type="checkbox" name="category" id="electro" value="electro" />
+
+          <label for="moda">Moda</label>
+          <input type="checkbox" name="category" id="moda" value="moda" />
+
+          <label for="hogar">Hogar</label>
+          <input type="checkbox" name="category" id="hogar" value="hogar" />
+
+          <label for="jugueteria">Juguetería</label>
+          <input
+            type="checkbox"
+            name="category"
+            id="jugueteria"
+            value="jugueteria"
+          />
+
+          <label for="lifeStyle">Vida Sana</label>
+          <input
+            type="checkbox"
+            name="category"
+            id="lifeStyle"
+            value="lifeStyle"
+          />
+        </fieldset>
+
+        <fieldset>
+          <button type="submit">Registrarse</button>
+          <button type="reset">Borrar todo</button>
+        </fieldset>
+      </form>
+    </main>
+    
   </body>
 </html>
