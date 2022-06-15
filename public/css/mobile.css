@@ -134,10 +134,10 @@ input{
 
 button{
   max-width: 10%;
-  border-radius: 0.50rem .50rem .50rem 0.50rem;
+  border-radius: 0 .50rem .50rem 0;
   color: #666;
-  border-color: #ebebeb;
-  background-color: #ebebeb;
+  border-color: #fff;
+  background-color: #fff;
   box-shadow: none;
 }
 
