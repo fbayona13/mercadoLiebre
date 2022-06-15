@@ -224,17 +224,18 @@ p#descripciones {
 #login{
   width: 70vw;
   height: 50vh;
+  position: relative;
+  left: 15vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
   flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  align-content: center;
   padding: 1vw;
-  border-color: #000;
-  border-radius: 0.5rem;
 }
 
-form #login input{
+form #login fieldset input{
   flex-grow: 1;
 }
 
