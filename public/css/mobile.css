@@ -126,10 +126,13 @@ input{
 }
 
 button{
+  max-width: 10%;
+  max-height: fit-content;
   border-radius: 0 .25rem .25rem 0;
   color: #666;
   border-color: #eac926;
   background-color: #eac926;
+  box-shadow: none;
 }
 
 #holdingdollar {
