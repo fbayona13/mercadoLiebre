@@ -37,7 +37,18 @@
           </a>
         </nav>
 
-        <p id="searchbar">Lugar para poner barra de busqueda</p>
+        <form action="/" method="get" id="searchbar">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search products..."
+          />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
         <p id="holdingdollar">
           <i class="fa-solid fa-hand-holding-dollar"></i>
           compras en cuotas y sin tarjeta de credito
@@ -50,12 +61,12 @@
         <a href="">Vender</a>
         <a href="">Ayuda</a>
 
-        <a href="./register.html">
+        <a href="/register">
           Crea tu cuenta
           <i class="fa-solid fa-id-card"></i>
         </a>
 
-        <a href="./login.html">
+        <a href="/login">
           Ingresa
           <i class="fa-solid fa-arrow-right-to-bracket"></i>
         </a>
@@ -149,7 +160,9 @@
         </fieldset>
 
         <fieldset>
-          <label>Seleccione categorias de interes (puede elegir mas de una)</label>
+          <label
+            >Seleccione categorias de interes (puede elegir mas de una)</label
+          >
 
           <label for="electro">Electro</label>
           <input type="checkbox" name="category" id="electro" value="electro" />
@@ -183,6 +196,5 @@
         </fieldset>
       </form>
     </main>
-    
   </body>
 </html>
