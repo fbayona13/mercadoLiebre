@@ -130,11 +130,10 @@ input{
 
 button{
   max-width: 10%;
-  max-height: fit-content;
   border-radius: 0 .50rem .50rem 0;
-  color: #666;
-  border-color: #eac926;
-  background-color: #eac926;
+  color: #ebebeb;
+  border-color: #1259c3;
+  background-color: #1259c3;
   box-shadow: none;
 }
 
