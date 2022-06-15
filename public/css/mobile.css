@@ -224,6 +224,9 @@ p#descripciones {
 #login{
   width: 70vw;
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  
   border-color: #666;
 }
 
