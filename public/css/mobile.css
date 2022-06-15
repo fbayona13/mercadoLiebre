@@ -128,13 +128,13 @@ a {
 
 input {
   width: 90%;
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 0.75rem 0 0 0.75rem;
   border-color: #eac926;
 }
 
 button {
-  max-width: 10%;
-  border-radius: 0 0.5rem 0.5rem 0;
+  width: 10%;
+  border-radius: 0 0.75rem 0.75rem 0;
   color: #666;
   border-color: #fff;
   background-color: #fff;
