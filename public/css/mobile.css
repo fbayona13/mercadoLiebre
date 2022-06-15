@@ -98,6 +98,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
 }
 
 #logo {
@@ -112,7 +113,7 @@ a {
 
 input{
   width: 90%;
-  border-radius: .25rem;
+  border-radius: .25rem .25rem 0 0;
 }
 
 #holdingdollar {
