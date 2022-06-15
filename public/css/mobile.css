@@ -107,11 +107,12 @@ a {
 
 #searchbar {
   flex-grow: 1;
-  border-radius: 1rem;
+  align-self: center;
 }
 
 input{
   width: 90%;
+  border-radius: .25rem;
 }
 
 #holdingdollar {
