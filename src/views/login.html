@@ -83,16 +83,20 @@
     </header>
     <main>
       <form action="/" method="get" id="login">
-        <label for="nombre" id="labelLogin">Nombre de usuario:</label>
-        <input
-          type="text"
-          name="nombre"
-          id="nombre"
-          placeholder="rickAstley1"
-        />
+        <fieldset>
+          <label for="nombre" id="labelLogin">Nombre de usuario:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="rickAstley1"
+          />
+        </fieldset>
 
-        <label for="password" id="labelLogin">Contraseña:</label>
-        <input type="password" name="password" id="password" />
+        <fieldset>
+          <label for="password" id="labelLogin">Contraseña:</label>
+          <input type="password" name="password" id="password" />
+        </fieldset>
 
         <button action="/" id="buttonLogin">Log in</button>
       </form>

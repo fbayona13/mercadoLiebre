@@ -236,7 +236,8 @@ p#descripciones {
 form #login input{
   flex-grow: 1;
 }
-nombreUsuario{
+
+#labelLogin{
   flex-grow: 1;
 }
 
