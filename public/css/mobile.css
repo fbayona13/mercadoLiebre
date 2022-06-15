@@ -223,6 +223,7 @@ p#descripciones {
 /*ESTILO LOGIN*/
 #login{
   width: 70vw;
+  height: 50vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -230,6 +231,13 @@ p#descripciones {
   padding: 1vw;
   border-color: #000;
   border-radius: 0.5rem;
+}
+
+form #login input{
+  flex-grow: 1;
+}
+nombreUsuario{
+  flex-grow: 1;
 }
 
 @media only screen and (max-width: 360px) {
