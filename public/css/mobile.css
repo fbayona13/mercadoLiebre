@@ -316,7 +316,7 @@ input#passwordConfirm{
   grid-template-rows: 1fr 1fr;
 }
 
-fieldset#userProfile label{
+#labelUserProfile{
   grid-area: 1 / 1 / 3;
 }
 
