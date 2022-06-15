@@ -308,6 +308,16 @@ input#passwordConfirm{
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
+} 
+
+#userProfile{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+fieldset#userProfile label{
+  grid-area: 1 / 1 / 3;
 }
 
 
