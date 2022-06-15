@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: #eac926;
-  padding: 2rem 2rem 0.5rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 
 main {
@@ -184,12 +184,19 @@ button {
   width: 30px;
   height: 30px;
   border: 1px solid #39b54a;
-  position: absolute;
-  right: 20px;
-  top: -15px;
+  position: relative;
+  left: -100px;
+  top: -20px;
   text-align: left;
+  border-radius: 20px;
   color: #39b54a;
   background-color: #fff;
+  transition: transform 1000ms ease-in-out;
+
+}
+
+#shipping:hover{
+  transform: rotate(90deg);
 }
 
 /*ESTILO PARA LOS PRODUCTOS*/
@@ -222,7 +229,7 @@ p#descripciones {
 }
 
 /*ESTILO LOGIN*/
-#login{
+#login {
   width: 70vw;
   height: 50vh;
   position: relative;
@@ -235,29 +242,29 @@ p#descripciones {
   align-content: center;
   padding: 1vw;
 }
-fieldset{
+fieldset {
   border: none;
   padding-bottom: 1rem;
 }
 
-input#nombre{
+input#nombre {
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
 }
-input#password{
+input#password {
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
 }
 
-#labelLogin{
+#labelLogin {
   flex-grow: 1;
 }
 
-#buttonLogin{
+#buttonLogin {
   max-width: 50%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -268,7 +275,7 @@ input#password{
 }
 
 /*ESTILO REGISTER*/
-#register{
+#register {
   width: 70vw;
   position: relative;
   left: 15vw;
@@ -280,55 +287,55 @@ input#password{
   align-content: center;
   padding: 1vw;
 }
-input#nombreApellido{
+input#nombreApellido {
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
 }
-input#userName{
+input#userName {
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
 }
-input#bDate{
+input#bDate {
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
 }
-input#email{
+input#email {
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
 }
-input#passwordConfirm{
+input#passwordConfirm {
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
-} 
+}
 
-#userProfile{
+#userProfile {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-#labelUserProfile{
+#labelUserProfile {
   grid-area: 1 / 1 / 3;
 }
 
-#userCategories{
+#userCategories {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "a a a a a" "b b b b b";
 }
 
-#labelUserCategories{
+#labelUserCategories {
   grid-area: a;
 }
 
@@ -341,7 +348,6 @@ input#passwordConfirm{
     display: none !important;
   }
 }
-
 
 /* 
 COLORES QUE SE NOS PROPORCIONARON
