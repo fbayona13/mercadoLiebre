@@ -240,17 +240,28 @@ fieldset{
 
 input #nombre{
   width: 90%;
+  height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #eac926;
 }
 input #password{
   width: 90%;
+  height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #eac926;
 }
 
 #labelLogin{
   flex-grow: 1;
+}
+
+#buttonLogin{
+  max-width: 50%;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: #1259c3;
+  border-color: #fff;
+  background-color: #fff;
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 360px) {
