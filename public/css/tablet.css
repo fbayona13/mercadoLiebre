@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: #eac926;
-  padding: 30px;
+  padding: 2rem 2rem 1rem 2rem;
 }
 
 main {
@@ -39,7 +39,7 @@ h2 {
   text-align: left;
 }
 
-h3{
+h3 {
   align-self: flex-end;
 }
 
@@ -76,7 +76,7 @@ a {
 }
 
 /*ESTILO PARA LOS SIMBOLOS DEL FOOTER*/
-#footer-flex{
+#footer-flex {
   width: 30vw;
   height: 100%;
   padding-bottom: 1vh;
@@ -97,7 +97,10 @@ a {
 #header1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  padding-bottom: 1vh;
 }
 
 #logo {
@@ -105,12 +108,41 @@ a {
   align-self: center;
 }
 
+#mercadoliebre {
+  max-width: 100vw;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+/*ESTILO BARRA DE BUSQUEDA*/
+
 #searchbar {
   flex-grow: 1;
   align-self: center;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  border-radius: 0.75rem 0 0 0.75rem;
+  border-color: #eac926;
+}
+
+button {
+  width: 10%;
+  border-radius: 0 0.75rem 0.75rem 0;
+  color: #666;
+  border-color: #fff;
+  background-color: #fff;
+  box-shadow: none;
 }
 
 #holdingdollar {
+  text-align: center;
   flex-grow: 1;
   align-self: center;
 }
@@ -120,6 +152,11 @@ a {
 #gridproducts {
   display: grid;
   grid-template-columns: 25vw 25vw 25vw 25vw;
+}
+
+#banner {
+  max-width: 100vw;
+  object-fit: contain;
 }
 
 #products {
@@ -136,12 +173,6 @@ a {
   border-top: 1px solid #ebebeb;
 }
 
-#mercadoliebre {
-  max-width: 100vw;
-  max-height: 100vh;
-  object-fit: contain;
-}
-
 #bars {
   text-align: center;
 }
@@ -153,12 +184,19 @@ a {
   width: 30px;
   height: 30px;
   border: 1px solid #39b54a;
-  position: absolute;
-  right: 20px;
-  top: -15px;
+  position: relative;
+  left: -100px;
+  top: -20px;
   text-align: left;
+  border-radius: 20px;
   color: #39b54a;
   background-color: #fff;
+  transition: transform 1000ms ease-in-out;
+
+}
+
+#shipping:hover{
+  transform: rotate(90deg);
 }
 
 /*ESTILO PARA LOS PRODUCTOS*/
@@ -188,6 +226,117 @@ p#descripciones {
   align-self: flex-end;
   color: #666;
   font-size: 16px;
+}
+
+/*ESTILO LOGIN*/
+#login {
+  width: 70vw;
+  height: 50vh;
+  position: relative;
+  left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  align-content: center;
+  padding: 1vw;
+}
+fieldset {
+  border: none;
+  padding-bottom: 1rem;
+}
+
+input#nombre {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#password {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+#labelLogin {
+  flex-grow: 1;
+}
+
+#buttonLogin {
+  max-width: 50%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: #ebebeb;
+  border-color: #1259c3;
+  background-color: #1259c3;
+  box-shadow: none;
+}
+
+/*ESTILO REGISTER*/
+#register {
+  width: 70vw;
+  position: relative;
+  left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  align-content: center;
+  padding: 1vw;
+}
+input#nombreApellido {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#userName {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#bDate {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#email {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#passwordConfirm {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+#userProfile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#labelUserProfile {
+  grid-area: 1 / 1 / 3;
+}
+
+#userCategories {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a a a a a" "b b b b b";
+}
+
+#labelUserCategories {
+  grid-area: a;
 }
 
 @media only screen and (min-width: 361px) and (max-width: 768px) {
