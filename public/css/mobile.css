@@ -242,13 +242,13 @@ input #nombre{
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-  border-color: #666;
+  border-color: #ebebeb;
 }
 input #password{
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-  border-color: #666;
+  border-color: #ebebeb;
 }
 
 #labelLogin{
@@ -257,10 +257,11 @@ input #password{
 
 #buttonLogin{
   max-width: 50%;
+  height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-  color: #1259c3;
-  border-color: #fff;
-  background-color: #fff;
+  color: #ebebeb;
+  border-color: #1259c3;
+  background-color: #1259c3;
   box-shadow: none;
 }
 
