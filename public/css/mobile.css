@@ -234,9 +234,19 @@ p#descripciones {
   align-content: center;
   padding: 1vw;
 }
+fieldset{
+  border: none;
+}
 
-form #login fieldset input{
-  flex-grow: 1;
+input #nombre{
+  width: 90%;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #eac926;
+}
+input #password{
+  width: 90%;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #eac926;
 }
 
 #labelLogin{
