@@ -110,7 +110,7 @@
           <label for="doc"><i class="fa-solid fa-image"></i></label>
           <input type="file" name="doc" id="doc" required />
 
-        <!--teniendo en cuenta la fecha de este ano (2022)-->
+          <!--teniendo en cuenta la fecha de este ano (2022)-->
         </fieldset>
         <fieldset>
           <label for="bDate"></label>
@@ -144,7 +144,7 @@
             required
           />
         </fieldset>
-        
+
         <fieldset>
           <label for="passwordConfirm">Confirmar contraseña</label>
           <input
@@ -168,20 +168,24 @@
           </label>
         </fieldset>
 
-        <fieldset>
-          <label
-            >Seleccione categorias de interes (puede elegir mas de una)</label
-          >
+        <label>Seleccione categorias de interes (puede elegir mas de una)</label>
 
+        <fieldset>
           <label for="electro">Electro</label>
           <input type="checkbox" name="category" id="electro" value="electro" />
+        </fieldset>
 
+        <fieldset>
           <label for="moda">Moda</label>
           <input type="checkbox" name="category" id="moda" value="moda" />
+        </fieldset>
 
+        <fieldset>
           <label for="hogar">Hogar</label>
           <input type="checkbox" name="category" id="hogar" value="hogar" />
+        </fieldset>
 
+        <fieldset>
           <label for="jugueteria">Juguetería</label>
           <input
             type="checkbox"
@@ -189,7 +193,9 @@
             id="jugueteria"
             value="jugueteria"
           />
+        </fieldset>
 
+        <fieldset>
           <label for="lifeStyle">Vida Sana</label>
           <input
             type="checkbox"
@@ -200,8 +206,8 @@
         </fieldset>
 
         <fieldset>
-          <button type="submit">Registrarse</button>
-          <button type="reset">Borrar todo</button>
+          <button type="submit" id="buttonLogin">Registrarse</button>
+          <button type="reset" id="buttonLogin">Borrar todo</button>
         </fieldset>
       </form>
     </main>
