@@ -320,6 +320,16 @@ input#passwordConfirm{
   grid-area: 1 / 1 / 3;
 }
 
+#userCategories{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a a a a a" "b b b b b";
+}
+
+#labelUserCategories{
+  grid-area: a;
+}
 
 @media only screen and (max-width: 360px) {
   p#descripciones {
