@@ -106,8 +106,9 @@ a {
 }
 
 #searchbar {
+  width: 100%;
   flex-grow: 1;
-  border-radius: .25rem;
+  border-radius: 1rem;
 }
 
 #holdingdollar {
