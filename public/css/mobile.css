@@ -198,7 +198,7 @@ button {
 }
 
 #shipping:hover{
-  transform: rotate(90deg);
+  transform: rotate(270deg);
 }
 
 /*ESTILO PARA LOS PRODUCTOS*/
