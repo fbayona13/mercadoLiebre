@@ -128,12 +128,14 @@ a {
 
 input {
   width: 90%;
+  height: 2rem;
   border-radius: 0.75rem 0 0 0.75rem;
   border-color: #eac926;
 }
 
 button {
   width: 10%;
+  height: 2rem;
   border-radius: 0 0.75rem 0.75rem 0;
   color: #666;
   border-color: #fff;
@@ -155,7 +157,7 @@ button {
 }
 
 #banner {
-  max-width: 100vw;
+  max-width: 98vw;
   object-fit: contain;
 }
 
@@ -196,7 +198,7 @@ button {
 }
 
 #shipping:hover{
-  transform: rotate(90deg);
+  transform: rotate(270deg);
 }
 
 /*ESTILO PARA LOS PRODUCTOS*/
