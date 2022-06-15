@@ -238,13 +238,13 @@ fieldset{
   border: none;
 }
 
-input #nombre{
+input#nombre{
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-color: #ebebeb;
 }
-input #password{
+input#password{
   width: 90%;
   height: 2rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
