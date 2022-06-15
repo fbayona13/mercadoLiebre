@@ -120,6 +120,8 @@ a {
   flex-grow: 1;
   align-self: center;
   height: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 input{
