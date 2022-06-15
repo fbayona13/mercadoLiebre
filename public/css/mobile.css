@@ -236,6 +236,7 @@ p#descripciones {
 }
 fieldset{
   border: none;
+  padding-bottom: 1rem;
 }
 
 input#nombre{
@@ -276,7 +277,19 @@ input#password{
 }
 
 /*ESTILO REGISTER*/
-
+#register{
+  width: 70vw;
+  height: 50vh;
+  position: relative;
+  left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  align-content: center;
+  padding: 1vw;
+}
 
 /* 
 COLORES QUE SE NOS PROPORCIONARON
