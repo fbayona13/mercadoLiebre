@@ -266,20 +266,9 @@ input#password{
   box-shadow: none;
 }
 
-@media only screen and (max-width: 360px) {
-  p#descripciones {
-    display: none !important;
-  }
-
-  .navylogin {
-    display: none !important;
-  }
-}
-
 /*ESTILO REGISTER*/
 #register{
   width: 70vw;
-  height: 50vh;
   position: relative;
   left: 15vw;
   display: flex;
@@ -290,6 +279,48 @@ input#password{
   align-content: center;
   padding: 1vw;
 }
+input#nombreApellido{
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#userName{
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#bDate{
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#email{
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#passwordConfirm{
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+
+@media only screen and (max-width: 360px) {
+  p#descripciones {
+    display: none !important;
+  }
+
+  .navylogin {
+    display: none !important;
+  }
+}
+
 
 /* 
 COLORES QUE SE NOS PROPORCIONARON
