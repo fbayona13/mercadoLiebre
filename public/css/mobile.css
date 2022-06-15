@@ -228,6 +228,7 @@ p#descripciones {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
   padding: 1vw;
   border-color: #000;
   border-radius: 0.5rem;
