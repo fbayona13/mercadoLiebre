@@ -131,9 +131,9 @@ input{
 button{
   max-width: 10%;
   border-radius: 0 .50rem .50rem 0;
-  color: #ebebeb;
-  border-color: #1259c3;
-  background-color: #1259c3;
+  color: #666;
+  border-color: #ebebeb;
+  background-color: #ebebeb;
   box-shadow: none;
 }
 
