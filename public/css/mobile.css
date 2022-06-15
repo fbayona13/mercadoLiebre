@@ -12,7 +12,6 @@ header {
 }
 
 main {
-  display: flex;
   text-align: center;
   margin: 1vh;
   width: 90%;
@@ -228,7 +227,9 @@ p#descripciones {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  border-color: #666;
+  padding: 1vw;
+  border-color: #000;
+  border-radius: 0.5rem;
 }
 
 @media only screen and (max-width: 360px) {
