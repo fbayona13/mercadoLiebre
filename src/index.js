@@ -15,6 +15,10 @@ server.get("/", (req, res) =>
   res.sendFile(path.resolve(__dirname, "views/home.html"))
 );
 
+server.get("/extra", (req, res) =>
+  res.sendFile(path.resolve(__dirname, "views/extra.html"))
+);
+
 server.get("/login", (req, res) =>
   res.sendFile(path.resolve(__dirname, "views/login.html"))
 );
@@ -22,3 +26,4 @@ server.get("/login", (req, res) =>
 server.get("/register", (req, res) =>
   res.sendFile(path.resolve(__dirname, "views/register.html"))
 );
+

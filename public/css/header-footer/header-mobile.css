@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ebebeb;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #eac926;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+main {
+  margin-bottom: 2vh;
+
+  text-align: center;
+  background-color: #ebebeb;
+}
+
+h2 {
+  margin: 1vw;
+  color: #666;
+  font-size: 24px;
+  text-align: left;
+}
+
+h3 {
+  align-self: flex-end;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*FLEX PARA LA PARTE DEL HEADER QUE INCLUYE EL LOGO, EL FORM DE BUSQUEDA Y COMPRA EN CUOTAS*/
+
+#header1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  padding-bottom: 1vh;
+}
+
+#logo {
+  width: 10%;
+
+  flex-grow: 1;
+  align-self: center;
+}
+
+#mercadoliebre {
+  width: 100%;
+  height: auto;
+}
+
+/*ESTILO BARRA DE BUSQUEDA*/
+
+#searchbar {
+  flex-grow: 1;
+  align-self: center;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  height: 2rem;
+
+  border: none;
+  border-radius: 0.75rem 0 0 0.75rem;
+}
+
+button {
+  width: 10%;
+  height: 2rem;
+
+  border: none;
+  border-radius: 0 0.75rem 0.75rem 0;
+  color: #666;
+  background-color: #fff;
+}
+
+#holdingdollar {
+  font-size: 75%;
+
+  text-align: center;
+  flex-grow: 1;
+  align-self: center;
+}
+
+/*GRID PARA HACER LA BARRA CON EL NAV DEL LOGIN*/
+.navylogin {
+  font-size: 75%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 10vw));
+  place-items: center;
+  gap: 2vw;
+  padding-top: 1vh;
+}
+
+/*CSS DEL MENU NAVEGACION LATERAL*/
+.navbars {
+  height: 35px;
+  width: 35px;
+
+  padding: 8px;
+  border-radius: 5px;
+  margin: 20px;
+
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #1259c3;
+  border-color: black;
+
+  position: relative;
+  left: 40%;
+
+}
+
+@media only screen and (max-width: 500px) {
+  .navylogin {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .navbars {
+    display: none !important;
+  }
+}

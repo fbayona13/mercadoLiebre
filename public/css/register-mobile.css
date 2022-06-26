@@ -1,0 +1,98 @@
+/*ESTILO REGISTER*/
+#register {
+  width: 70vw;
+  padding: 1vw;
+  margin-top: 4vh;
+
+  position: relative;
+  left: 15vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+}
+
+#register fieldset {
+  border: none;
+}
+
+#register fieldset label {
+  font-size: 90%;
+}
+
+input#nombreApellido {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+input#userName {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+input#bDate {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+input#email {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+input#passwordConfirm {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+#userProfile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#labelUserProfile {
+  grid-area: 1 / 1 / 3;
+
+  font-size: 90%;
+}
+
+#userCategories {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a a a a a" "b b b b b";
+}
+
+#labelUserCategories {
+  grid-area: a;
+  
+  font-size: 90%;
+}
+
+#buttonRegister {
+
+  width: 30%;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: #ebebeb;
+  border: none;
+  background-color: #1259c3;
+
+  transition: transform 750ms ease-in-out;
+}
+
+#buttonRegister:hover {
+  background-color: #0022AA;
+}

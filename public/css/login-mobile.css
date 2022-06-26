@@ -1,0 +1,60 @@
+/*ESTILO LOGIN*/
+#login {
+  width: 70vw;
+  height: 50vh;
+  position: relative;
+  left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  align-content: center;
+  padding: 1vw;
+}
+fieldset {
+  border: none;
+  padding-bottom: 1rem;
+}
+
+input#nombre {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+input#password {
+  width: 90%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-color: #ebebeb;
+}
+
+#labelLogin {
+  flex-grow: 1;
+}
+
+#buttonsRegister {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 3vw;
+}
+
+#buttonLogin {
+  align-self: center;
+
+  max-width: 50%;
+  height: 2rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: #ebebeb;
+  border: none;
+  background-color: #1259c3;
+
+  transition: transform 750ms ease-in-out;
+}
+
+#buttonLogin:hover {
+  background-color: #0022aa;
+}

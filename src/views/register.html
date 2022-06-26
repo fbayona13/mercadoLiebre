@@ -20,9 +20,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="/css/mobile.css" />
-    <link rel="stylesheet" href="/css/tablet.css" />
-    <link rel="stylesheet" href="/css/desktop.css" />
+
+    <link rel="stylesheet" href="/css/register-mobile.css" />
+    <link rel="stylesheet" href="/css/register-tablet.css" />
+    <link rel="stylesheet" href="/css/register-desktop.css" />
+
+    <link rel="stylesheet" href="/css/header-footer/header-mobile.css" />
+    <link rel="stylesheet" href="/css/header-footer/header-tablet.css" />
+    <link rel="stylesheet" href="/css/header-footer/header-desktop.css" />
+    <link rel="stylesheet" href="/css/header-footer/footer-mobile.css" />
+    <link rel="stylesheet" href="/css/header-footer/footer-tablet.css" />
+    <link rel="stylesheet" href="/css/header-footer/footer-desktop.css" />
   </head>
   <body>
     <header>
@@ -169,7 +177,9 @@
         </fieldset>
 
         <fieldset id="userCategories">
-          <label id="labelUserCategories">Seleccione categorias de interes (puede elegir mas de una)</label>
+          <label id="labelUserCategories"
+            >Seleccione categorias de interes (puede elegir mas de una)</label
+          >
 
           <fieldset>
             <label for="electro">
@@ -222,11 +232,42 @@
           </fieldset>
         </fieldset>
 
-        <fieldset>
-          <button type="submit" id="buttonLogin">Registrarse</button>
-          <button type="reset" id="buttonLogin">Borrar todo</button>
+        <fieldset id="buttonsRegister">
+          <button type="submit" id="buttonRegister">Registrarse</button>
+          <button type="reset" id="buttonRegister">Borrar todo</button>
         </fieldset>
       </form>
     </main>
+
+    <footer>
+      <article id="footer-flex">
+        <i id="footer" class="fa-solid fa-credit-card"></i>
+        <h3 id="footertext">Para con tarjeta o en efectivo</h3>
+        <p id="footertext">
+          Con MercadoLiebreCash tenes cuotas sin interes con tarjeta o efectivo
+          en puntos de pago. Y siempre es seguro!
+        </p>
+      </article>
+
+      <article id="footer-flex">
+        <i id="footer" class="fa-solid fa-gift"></i>
+        <h3 id="footertext">Envios Gratis desde los $2500</h3>
+        <p id="footertext">
+          Solo por estar regustraddo en Mercado Liebre tenes envios gratis en
+          miles de productos. Es un beneficio de Mercado Puntos
+        </p>
+      </article>
+
+      <article id="footer-flex">
+        <i id="footer" class="fa-solid fa-user-shield"></i>
+        <h3 id="footertext">Seguridad de principio a fin</h3>
+        <p id="footertext">
+          No te gusta? Devolvelo! En MercadoLiebre no hay nada que no puedas
+          hacer porque estas siempre protegid@
+        </p>
+      </article>
+
+      <h3>Copyright © 1999-2020 MerccadoLiebre S.R.L</h3>
+    </footer>
   </body>
 </html>

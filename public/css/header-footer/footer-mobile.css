@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2vh;
+  background-color: #fff;
+  text-align: center;
+}
+
+/*ESTILO PARA LOS SIMBOLOS DEL FOOTER*/
+#footer-flex {
+  width: 30vw;
+  height: 100%;
+  padding-bottom: 1vh;
+}
+
+#footer {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1259c3; 
+
+  transition: transform 750ms ease-in-out;
+}
+
+#footer:hover {
+  color: #666;
+  transform: rotate(360deg);
+}
+
+#footertext {
+  color: #666;
+}
